@@ -50,7 +50,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -105,7 +105,7 @@ body {
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -118,13 +118,13 @@ body {
 .logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #e91e63;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .logo-text:hover {
-  color: #764ba2;
+  color: #ad1457;
 }
 
 .desktop-nav {
@@ -141,7 +141,7 @@ body {
 }
 
 .desktop-nav a:hover {
-  color: #667eea;
+  color: #e91e63;
   transform: translateY(-2px);
 }
 
@@ -152,7 +152,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   transition: width 0.3s ease;
 }
 
@@ -178,8 +178,8 @@ body {
 }
 
 .icon-button:hover, .cart-button:hover, .mobile-menu-button:hover {
-  color: #667eea;
-  background: rgba(102, 126, 234, 0.1);
+  color: #e91e63;
+  background: rgba(233, 30, 99, 0.1);
   transform: scale(1.1);
 }
 
@@ -256,8 +256,8 @@ body {
 }
 
 .close-button:hover {
-  color: #667eea;
-  background: rgba(102, 126, 234, 0.1);
+  color: #e91e63;
+  background: rgba(233, 30, 99, 0.1);
 }
 
 .mobile-logo {
@@ -283,13 +283,13 @@ body {
 }
 
 .mobile-nav a:hover {
-  color: #667eea;
+  color: #e91e63;
 }
 
 /* Hero Banner */
 .hero-banner {
   height: 100vh;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%),
+  background: linear-gradient(135deg, rgba(233, 30, 99, 0.9) 0%, rgba(173, 20, 87, 0.9) 100%),
               url('https://images.unsplash.com/photo-1521577352947-9bb58764b69a?w=1920&h=1080&fit=crop') center/cover;
   display: flex;
   align-items: center;
@@ -340,7 +340,7 @@ body {
 
 .cta-button {
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  color: #667eea;
+  color: #e91e63;
   border: none;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -482,7 +482,7 @@ body {
 }
 
 .thumbnail:hover, .thumbnail.active {
-  border-color: #667eea;
+  border-color: #e91e63;
   transform: scale(1.05);
 }
 
@@ -531,7 +531,7 @@ body {
 .current-price {
   font-size: 3rem;
   font-weight: 800;
-  color: #667eea;
+  color: #e91e63;
 }
 
 .original-price {
@@ -589,9 +589,9 @@ body {
 }
 
 .color-option:hover, .color-option.active {
-  border-color: #667eea;
+  border-color: #e91e63;
   transform: scale(1.1);
-  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 0 0 2px rgba(233, 30, 99, 0.3);
 }
 
 .size-select {
@@ -606,7 +606,7 @@ body {
 
 .size-select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #e91e63;
 }
 
 .purchase-section {
@@ -638,7 +638,7 @@ body {
 
 .quantity-button:hover {
   background: #f3f4f6;
-  color: #667eea;
+  color: #e91e63;
 }
 
 .quantity-display {
@@ -651,7 +651,7 @@ body {
 
 .add-to-cart-button {
   flex: 1;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -664,12 +664,12 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
 .add-to-cart-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 15px 35px rgba(233, 30, 99, 0.4);
 }
 
 /* Product Grids */
@@ -730,7 +730,7 @@ body {
 
 .quick-add-button {
   background: white;
-  color: #667eea;
+  color: #e91e63;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
@@ -743,7 +743,7 @@ body {
 }
 
 .quick-add-button:hover {
-  background: #667eea;
+  background: #e91e63;
   color: white;
   transform: scale(1.05);
 }
@@ -769,7 +769,7 @@ body {
 .product-price {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #667eea;
+  color: #e91e63;
 }
 
 /* Categories Grid */
@@ -831,7 +831,7 @@ body {
 /* Promotional Section */
 .promotional-section {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   text-align: center;
   color: white;
   position: relative;
@@ -881,7 +881,7 @@ body {
 
 .promo-button {
   background: white;
-  color: #667eea;
+  color: #e91e63;
   border: none;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -901,7 +901,7 @@ body {
 /* Newsletter */
 .newsletter {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   text-align: center;
   color: white;
   border-radius: 20px;
@@ -947,7 +947,7 @@ body {
 
 .newsletter-button {
   background: white;
-  color: #667eea;
+  color: #e91e63;
   border: none;
   padding: 1rem 2rem;
   border-radius: 10px;
@@ -991,11 +991,11 @@ body {
 
 .form-input:focus, .form-textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #e91e63;
 }
 
 .form-button, .checkout-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -1008,7 +1008,7 @@ body {
 
 .form-button:hover, .checkout-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
 /* Customer Reviews */
@@ -1133,8 +1133,8 @@ body {
 }
 
 .social-link:hover {
-  color: #667eea;
-  background: rgba(102, 126, 234, 0.1);
+  color: #e91e63;
+  background: rgba(233, 30, 99, 0.1);
   transform: translateY(-2px);
 }
 
@@ -1152,7 +1152,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #667eea;
+  color: #e91e63;
 }
 
 .contact-info {
@@ -1167,7 +1167,7 @@ body {
 }
 
 .contact-info a:hover {
-  color: #667eea;
+  color: #e91e63;
 }
 
 .footer-bottom {
@@ -1345,7 +1345,7 @@ body {
 }
 
 .message-modal-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
   border: none;
   padding: 0.75rem 2rem;
@@ -1357,7 +1357,7 @@ body {
 
 .message-modal-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
 /* Category Products Styles */
@@ -1394,7 +1394,7 @@ body {
   align-items: center;
   padding: 2rem;
   border-bottom: 1px solid #e5e7eb;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
 }
 
@@ -1488,7 +1488,7 @@ body {
 
 .category-product-view-btn {
   background: white;
-  color: #667eea;
+  color: #e91e63;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
@@ -1501,7 +1501,7 @@ body {
 }
 
 .category-product-view-btn:hover {
-  background: #667eea;
+  background: #e91e63;
   color: white;
   transform: scale(1.05);
 }
@@ -1519,7 +1519,7 @@ body {
 }
 
 .consultation-text {
-  color: #667eea;
+  color: #e91e63;
   font-size: 0.9rem;
   font-weight: 500;
   font-style: italic;
@@ -1575,7 +1575,7 @@ body {
   align-items: center;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid #e5e7eb;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
 }
 
@@ -1651,23 +1651,23 @@ body {
 }
 
 .consultation-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
   color: white;
 }
 
 .consultation-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
 .add-to-consultation-btn {
-  background: rgba(102, 126, 234, 0.1);
-  color: #667eea;
-  border: 2px solid #667eea;
+  background: rgba(233, 30, 99, 0.1);
+  color: #e91e63;
+  border: 2px solid #e91e63;
 }
 
 .add-to-consultation-btn:hover {
-  background: #667eea;
+  background: #e91e63;
   color: white;
   transform: translateY(-2px);
 }
@@ -1680,7 +1680,7 @@ body {
   padding: 1rem;
   background: #f9fafb;
   border-radius: 10px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #e91e63;
 }
 
 /* Responsive Design */
